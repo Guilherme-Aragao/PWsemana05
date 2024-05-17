@@ -1,0 +1,69 @@
+
+/* 
+* Curso de Engenharia de Software - UniEVANGÉLICA 
+* Disciplina de Programação Web 
+* Dev: Guilherme Aragão Silva
+* DATA: 2024-05-16
+*/
+
+body {
+    background: linear-gradient(to right, #ffffff, #031e95); /* Gradiente de branco para azul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 384px; /* equivalente a 96rem */
+}
+
+.form-title {
+    font-size: 24px; /* equivalente a 2xl em tailwind */
+    font-weight: bold;
+    margin-bottom: 24px; /* equivalente a mb-6 em tailwind */
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    font-size: 14px; /* equivalente a text-sm em tailwind */
+    font-weight: medium;
+    color: #4a5568; /* equivalente a text-gray-700 em tailwind */
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 12px; /* equivalente a px-3 py-2 em tailwind */
+    background-color: white;
+    border: 1px solid #e2e8f0; /* equivalente a border-gray-300 em tailwind */
+    border-radius: 4px; /* equivalente a rounded-md em tailwind */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    margin-top: 4px; /* equivalente a mt-1 em tailwind */
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #4c51bf; /* equivalente a focus:border-indigo-500 em tailwind */
+    box-shadow: 0 0 0 3px rgba(75, 123, 236, 0.5); /* equivalente a focus:ring em tailwind */
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #4c51bf; /* equivalente a bg-indigo-600 em tailwind */
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px; /* equivalente a rounded-md em tailwind */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #434190; /* equivalente a hover:bg-indigo-700 em tailwind */
+}
